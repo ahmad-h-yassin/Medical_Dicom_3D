@@ -1,0 +1,125 @@
+eroded    : <type 'numpy.ndarray'>
+eroded    : (302, 302)
+eroded    : 0
+eroded    : <type 'numpy.uint8'>
+eroded    : (array([  0,   0,   0, ..., 301, 301, 301]), array([  0,   1,   2, ..., 299, 300, 301]))
+[[255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ ..., 
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]]
+dilation    : <type 'numpy.ndarray'>
+dilation    : (302, 302)
+dilation    : 0
+dilation    : <type 'numpy.uint8'>
+dilation    : (array([  0,   0,   0, ..., 301, 301, 301]), array([  0,   1,   2, ..., 299, 300, 301]))
+[[255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ ..., 
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]
+ [255 255 255 ..., 255 255 255]]
+dilation: <type 'numpy.ndarray'>
+eroded  : <type 'numpy.ndarray'>
+
+
+
+
+
+
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'AXIAL', 'HELIX']
+(0008, 0012) Instance Creation Date              DA: '20061012'
+(0008, 0013) Instance Creation Time              TM: '091605.000000'
+(0008, 0016) SOP Class UID                       UI: CT Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.2.826.0.1.3680043.8.1055.1.20111102150758591.03296050.69180943
+(0008, 0020) Study Date                          DA: '20061012'
+(0008, 0022) Acquisition Date                    DA: '20061012'
+(0008, 0023) Content Date                        DA: '20061012'
+(0008, 0030) Study Time                          TM: '090258.000000'
+(0008, 0032) Acquisition Time                    TM: '085229.000000'
+(0008, 0033) Content Time                        TM: '085229.719000'
+(0008, 0060) Modality                            CS: 'CT'
+(0008, 1030) Study Description                   LO: 'CT1 abdomen'
+(0008, 1032)  Procedure Code Sequence   1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: 'CTABDOM'
+   (0008, 0102) Coding Scheme Designator            SH: 'XPLORE'
+   (0008, 0104) Code Meaning                        LO: 'CT1 abdomen'
+   ---------
+(0008, 103e) Series Description                  LO: 'ARTERIELLE'
+(0008, 1111)  Referenced Performed Procedure Step Sequence   1 item(s) ---- 
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.2.840.113704.1.111.5104.1160636572.51
+   ---------
+(0010, 0010) Patient's Name                      PN: 'Anonymized'
+(0010, 0020) Patient ID                          LO: '0'
+(0010, 1010) Patient's Age                       AS: '000Y'
+(0018, 0010) Contrast/Bolus Agent                LO: 'CONTRAST'
+(0018, 0022) Scan Options                        CS: 'HELIX'
+(0018, 0050) Slice Thickness                     DS: '0.5'
+(0018, 0060) KVP                                 DS: '120'
+(0018, 0088) Spacing Between Slices              DS: '0.5'
+(0018, 0090) Data Collection Diameter            DS: '302'
+(0018, 1030) Protocol Name                       LO: 'ART.RENALES 12/Abdomen/Hx'
+(0018, 1100) Reconstruction Diameter             DS: '302'
+(0018, 1120) Gantry/Detector Tilt                DS: '0'
+(0018, 1130) Table Height                        DS: '151'
+(0018, 1140) Rotation Direction                  CS: 'CW'
+(0018, 1151) X-Ray Tube Current                  IS: '400'
+(0018, 1152) Exposure                            IS: '300'
+(0018, 1160) Filter Type                         SH: 'B'
+(0018, 1210) Convolution Kernel                  SH: 'B'
+(0018, 5100) Patient Position                    CS: 'FFS'
+(0020, 000d) Study Instance UID                  UI: 1.2.826.0.1.3680043.8.1055.1.20111102150758591.92402465.76095170
+(0020, 000e) Series Instance UID                 UI: 1.2.826.0.1.3680043.8.1055.1.20111102150758591.96842950.07877442
+(0020, 0011) Series Number                       IS: '6168'
+(0020, 0013) Instance Number                     IS: '1'
+(0020, 0032) Image Position (Patient)            DS: ['-151.493508', '-36.6564417', '1295']
+(0020, 0037) Image Orientation (Patient)         DS: ['1', '0', '0', '0', '1', '0']
+(0020, 0052) Frame of Reference UID              UI: 1.2.840.113704.1.111.3704.1160637109.3
+(0020, 1041) Slice Location                      DS: '-325.00'
+(0020, 4000) Image Comments                      LT: 'JPEG 2000 lossless - Version 4.0.2 (c) Image Devices GmbH\x00'
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 512
+(0028, 0011) Columns                             US: 512
+(0028, 0030) Pixel Spacing                       DS: ['0.58984375', '0.58984375']
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 1050) Window Center                       DS: ['00050', '00050']
+(0028, 1051) Window Width                        DS: ['00350', '00350']
+(0028, 1052) Rescale Intercept                   DS: '-1000'
+(0028, 1053) Rescale Slope                       DS: '1'
+(0028, 2110) Lossy Image Compression             CS: '01'
+(0028, 2112) Lossy Image Compression Ratio       DS: '5.882680'
+(0040, 0007) Scheduled Procedure Step Descriptio LO: 'CT1 abdomen'
+(0040, 0008)  Scheduled Protocol Code Sequence   1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: 'CTABDOM'
+   (0008, 0102) Coding Scheme Designator            SH: 'XPLORE'
+   (0008, 0104) Code Meaning                        LO: 'CT1 abdomen'
+   ---------
+(0040, 0009) Scheduled Procedure Step ID         SH: 'A10026177758'
+(0040, 0254) Performed Procedure Step Descriptio LO: 'CT1 abdomen'
+(0040, 0260)  Performed Protocol Code Sequence   1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: 'CTABDOM'
+   (0008, 0102) Coding Scheme Designator            SH: 'XPLORE'
+   (0008, 0104) Code Meaning                        LO: 'CT1 abdomen'
+   ---------
+(0040, 0275)  Request Attributes Sequence   1 item(s) ---- 
+   (0040, 0007) Scheduled Procedure Step Descriptio LO: 'CT1 abdomen'
+   (0040, 0008)  Scheduled Protocol Code Sequence   1 item(s) ---- 
+      (0008, 0100) Code Value                          SH: 'CTABDOM'
+      (0008, 0102) Coding Scheme Designator            SH: 'XPLORE'
+      (0008, 0104) Code Meaning                        LO: 'CT1 abdomen'
+      ---------
+   (0040, 0009) Scheduled Procedure Step ID         SH: 'A10026177758'
+   (0040, 1001) Requested Procedure ID              SH: 'A10026177757'
+   ---------
+(0040, 1001) Requested Procedure ID              SH: 'A10026177757'
+(7fe0, 0010) Pixel Data                          OW: Array of 89144 bytes
+

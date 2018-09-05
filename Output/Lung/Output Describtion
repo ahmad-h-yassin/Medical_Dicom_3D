@@ -1,0 +1,5 @@
+'3d_vis_final.png' : This is the final 3D visualization of the dicom raw files.
+'Histogram.png' : This is a histogram visualization for the pixels count/frequency on Hundsfield scale.
+'image_stack.png' : This is the output of transforming the dicom files to pictures on Hundsfield scale.
+'processed.png' & 'processed2.png' : This processing detects the drak places in the lung 
+
